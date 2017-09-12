@@ -1,0 +1,26 @@
+{
+  "name": "ptchar",
+  "version": "1.0.0",
+  "description": "this chat will enable to all user to chat in one",
+  "main": "index.js",
+  "scripts": {
+    "test": "ptchat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdansari123/PTChatDEV.git"
+  },
+  "keywords": [
+    "ptchat"
+  ],
+  "author": "Md Saddam Hussain Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdansari123/PTChatDEV/issues"
+  },
+  "homepage": "https://github.com/mdansari123/PTChatDEV#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
