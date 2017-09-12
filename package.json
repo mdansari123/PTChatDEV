@@ -4,7 +4,9 @@
   "description": "this chat will enable to all user to chat in one",
   "main": "index.js",
   "scripts": {
-    "test": "ptchat"
+    "test": "ptchat",
+   "start": "node index.js"
+    
   },
   "repository": {
     "type": "git",
