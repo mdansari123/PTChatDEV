@@ -28,7 +28,7 @@ $(function() {
     function addParticipantsMessage (data) {
       var message = '';
       if (data.numUsers === 1) {
-        message += "there's 1 participant";
+        message += "there's 1 participant: ";
       } else {
         message += "there are " + data.numUsers + " participants";
       }
@@ -229,7 +229,7 @@ $(function() {
     socket.on('login', function (data) {
       connected = true;
       // Display the welcome message
-      var message = "Welcome to Socket.IO Chat – ";
+      var message = "Welcome to Project tracker Chat:";
       log(message, {
         prepend: true
       });

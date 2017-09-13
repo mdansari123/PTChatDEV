@@ -49,7 +49,7 @@
   /* Login Page */
   
   .login.page {
-    background-color: #000;
+    background-color: #C3D7D5;
   }
   
   .login.page .form {
@@ -82,7 +82,7 @@
   }
   
   .login.page .title, .login.page .usernameInput {
-    color: #fff;
+    color: #000;
     font-weight: 100;
   }
   
